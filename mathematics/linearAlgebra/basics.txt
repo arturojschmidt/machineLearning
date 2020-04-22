@@ -1,0 +1,30 @@
+tensor includes 
+	-- > Scalar (0 dimensions, number)
+	-- > 2d matrices
+ 	-- > Higher dimension matrices
+
+Matrix operations:
+	-- > adding, subtracting, multiplying & dividing a matrix by a scalar results in the matrix with the operation acted on every single element. Numpy uses c is makes this efficient
+
+
+	-- > when doing the same with multiple matrices, they have to have the same shape
+
+
+Matrix Multiplication:
+	
+	Matrix Multiplication is not the same as dot product!
+
+	Matrix Product (dot product) 
+		-- > a dot product is the multiplication of individual elements and their summation
+
+			ex: [0,1,2]*[3,4,5] = 0*3 + 1*4 + 2*5 = 14
+		-- > when doing dot product on matrices, we do the dot product of each row of the first, with each column of the second.
+				So, the number of columns of the first must be equal to the number of rows of the second.
+				The ending result is the size of the rows of the first and the cols of the second.
+Tranpose:
+	-- > Swaps rows to columns
+	-- > Arrangement and shape of matrix changes p
+	-- > You can only safely do a transpose to do a compatible matrix multiplication iff the data in both matrices is stores as rows NOT columns
+
+			
+			
